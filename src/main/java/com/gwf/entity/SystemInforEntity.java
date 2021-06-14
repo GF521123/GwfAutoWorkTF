@@ -21,5 +21,4 @@ public class SystemInforEntity {
     private String CoreTime;//核心监控时间版本4暂停使用
     private String kefuTime;//客服监控时间间隔
     private String gwfTime;//商品店铺监控时间间隔
-    private int syncNum;//参数初始化完成状态
 }

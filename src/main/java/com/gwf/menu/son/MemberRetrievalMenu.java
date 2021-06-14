@@ -8,6 +8,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import com.gwf.controller.MemberRetrievalController;
+import org.springframework.stereotype.Repository;
 
 /**
  * @author gwf
@@ -15,7 +16,7 @@ import com.gwf.controller.MemberRetrievalController;
  * @date 2021/4/15 17:55
  *
  */
-@Component
+@Repository
 public class MemberRetrievalMenu {
 	private static final Logger log = LoggerFactory.getLogger(MemberRetrievalMenu.class);
 	

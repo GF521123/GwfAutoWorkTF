@@ -4,6 +4,7 @@ import com.gwf.controller.UpdateShopNameController;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
 
 import java.util.Map;
 
@@ -12,6 +13,7 @@ import java.util.Map;
  * @version 1.0
  * @date 2021/6/13 16:57
  */
+@Repository
 public class UpdateShopNameMenu {
     private static final Logger log = LoggerFactory.getLogger(UpdateShopNameMenu.class);
 

@@ -4,6 +4,7 @@ import com.gwf.controller.ShopPendingController;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
 
 import java.util.Map;
 
@@ -12,6 +13,7 @@ import java.util.Map;
  * @version 1.0
  * @date 2021/6/13 16:49
  */
+@Repository
 public class ShopPendingMenu {
     private static final Logger log = LoggerFactory.getLogger(ShopPendingMenu.class);
 
