@@ -88,23 +88,23 @@ public class GwfUtilsImp implements GwfUtils{
 
 
 	public boolean isRunTime(){
-		return true;
-//		Calendar cal = Calendar.getInstance();
-//		int hour=cal.get(Calendar.HOUR_OF_DAY);//获取日
-//		int week = cal.get(Calendar.DAY_OF_WEEK)-1;
-//		log.info("星期:"+week);
-//		if(week == 0) {
-//			log.info("不在检索时间范围（星期日）内.....暂停检索");
-//			return false;
-//		}
-//		if ((hour >= 9 && hour < 12 )||((hour >= 14 )&&hour <= 17)) {
-//			return true;
-//		}
-//		if((hour >= 13 &&hour <= 14)&&cal.get(Calendar.MINUTE)>30) {
-//			return true;
-//		}
-//		log.info("不在检索时间范围（9~12 1.5~18）内.....暂停检索");
-//		return false;
+//		return true;
+		Calendar cal = Calendar.getInstance();
+		int hour=cal.get(Calendar.HOUR_OF_DAY);//获取日
+		int week = cal.get(Calendar.DAY_OF_WEEK)-1;
+		log.info("星期:"+week);
+		if(week == 0) {
+			log.info("不在检索时间范围（星期日）内.....暂停检索");
+			return false;
+		}
+		if ((hour >= 9 && hour < 12 )||((hour >= 14 )&&hour <= 17)) {
+			return true;
+		}
+		if((hour >= 13 &&hour <= 14)&&cal.get(Calendar.MINUTE)>30) {
+			return true;
+		}
+		log.info("不在检索时间范围（9~12 1.5~18）内.....暂停检索");
+		return false;
 	}
 
 	public void ConsoleHead(String name){
