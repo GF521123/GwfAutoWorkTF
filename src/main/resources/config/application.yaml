@@ -4,12 +4,14 @@ ToEmail:
 #    2278417331@qq.com
     479747481@qq.com,1261309200@qq.com,709363066@qq.com
   gwfREmail:
-    2278417331@qq.com
 #    2278417331@qq.com
+    2278417331@qq.com
 #-----------------------------------------------------------------------------
 #启动端口配置
 server:
-  port: 8091
+#  port: 9091 #客服端口
+  port: 9092 #自用端口
+  context-path: /GwfAutoWorkTF
 #-----------------------------------------------------------------------------
 #log4j2配置文件
 logging:
@@ -37,4 +39,11 @@ spring:
           starttls:
             enable: true
             required: true
-
+  mvc:
+    view:
+      prefix: /page/
+      suffix: .html
+    favicon:
+      enabled: false
+  thymeleaf:
+    prefix: /static

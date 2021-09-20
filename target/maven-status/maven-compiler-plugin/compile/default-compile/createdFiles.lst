@@ -1,6 +1,8 @@
 com\gwf\service\NeedPendingService.class
 com\gwf\menu\son\UpdateShopNameMenu.class
+com\gwf\controller\Imp\PageControllerImp.class
 com\gwf\service\Imp\UpdateShopNameServiceImp.class
+com\gwf\controller\PageController.class
 com\gwf\controller\Imp\NeedPendingControllerImp.class
 com\gwf\service\Imp\NeedPendingServiceImp.class
 com\gwf\controller\Imp\MemberRetrievalControllerImp.class
@@ -11,7 +13,6 @@ com\gwf\service\Imp\ShopPendingServiceImp.class
 com\gwf\service\MemberRetrievalService.class
 com\gwf\service\AfterSalesService.class
 com\gwf\GwfAutoWorkTFApplication.class
-com\gwf\menu\KeFuMenu$1.class
 com\gwf\service\ShopPendingService.class
 com\gwf\menu\son\MemberRetrievalMenu.class
 com\gwf\controller\OrderInforController.class
@@ -37,7 +38,6 @@ com\gwf\menu\son\NeedPendingMenu.class
 com\gwf\menu\GwfMenu.class
 com\gwf\entity\ToEmailEntity.class
 com\gwf\menu\son\SystemInforMenu.class
-com\gwf\menu\GwfMenu$1.class
 com\gwf\controller\Imp\AfterSalesControllerImp.class
 com\gwf\menu\son\AfterSalesMenu.class
 com\gwf\controller\NeedPendingController.class

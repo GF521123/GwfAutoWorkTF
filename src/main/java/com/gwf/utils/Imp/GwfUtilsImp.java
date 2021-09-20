@@ -1,9 +1,6 @@
 package com.gwf.utils.Imp;
 
-import java.io.BufferedInputStream;
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.InputStream;
+import java.io.*;
 import java.util.Calendar;
 
 import com.gwf.entity.SystemInforEntity;
@@ -14,7 +11,13 @@ import org.springframework.core.io.ClassPathResource;
 import org.springframework.stereotype.Repository;
 
 import com.gwf.utils.GwfUtils;
+import sun.misc.BASE64Decoder;
+import sun.misc.BASE64Encoder;
 
+import java.util.Base64;import java.io.IOException;
+import java.io.InputStream;
+import java.net.InetAddress;
+import java.net.URL;
 /**
  * @author gwf
  * @version 1.0
@@ -87,13 +90,12 @@ public class GwfUtilsImp implements GwfUtils{
 
 
 
-	public boolean isRunTime(){
-//		return true;
+	public boolean isRunTime(int numStatic){
 		Calendar cal = Calendar.getInstance();
 		int hour=cal.get(Calendar.HOUR_OF_DAY);//获取日
 		int week = cal.get(Calendar.DAY_OF_WEEK)-1;
 		log.info("星期:"+week);
-		if(week == 0) {
+		if(week == 0&&numStatic == 0) {
 			log.info("不在检索时间范围（星期日）内.....暂停检索");
 			return false;
 		}
@@ -119,5 +121,38 @@ public class GwfUtilsImp implements GwfUtils{
 //		log.info("-----------------------------------------------------------------------");
 	}
 
+
+	public  boolean isPing() {
+		URL url = null;
+		Boolean bon = false;
+//		String remoteInetAddr = "127.0.0.1";//需要连接的IP地址
+//		bon = isReachable(remoteInetAddr);
+//		System.out.println("pingIP：" + bon);
+		try {
+			url = new URL("https://www.tf0914.com/login");
+			InputStream in = url.openStream();//打开到此 URL 的连接并返回一个用于从该连接读入的 InputStream
+			System.out.println("网络链接，连接正常"+url.toString());
+			in.close();//关闭此输入流并释放与该流关联的所有系统资源。
+			return true;
+		} catch (IOException e) {
+			System.out.println("无法连接到：" + url.toString());
+			return false;
+		}
+	}
+	/**
+	 * 传入需要连接的IP，返回是否连接成功
+	 * @param remoteInetAddr
+	 * @return
+	 */
+	public  boolean isReachable(String remoteInetAddr) {
+		boolean reachable = false;
+		try {
+			InetAddress address = InetAddress.getByName(remoteInetAddr);
+			reachable = address.isReachable(5000);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return reachable;
+	}
 
 }

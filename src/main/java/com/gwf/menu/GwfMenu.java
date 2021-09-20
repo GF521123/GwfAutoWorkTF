@@ -46,7 +46,6 @@ public class GwfMenu implements CommandLineRunner {
     private CoreMenu coreMenu;
 
 
-
     @Value("${ToEmail.gwfREmail}")
     private String[] gwfREmail;
 
@@ -87,7 +86,7 @@ public class GwfMenu implements CommandLineRunner {
         String NeedPendResString = "";
         String ShopResString = "";
         String UpdateNameResString = "";
-        if (gwfUtils.isRunTime()) {
+        if (gwfUtils.isRunTime(0)) {
             systemInforEntity.setCookie(httpClientUtils.getCookies());
             second++;
             String timeStr1 = LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm:ss"));
@@ -119,7 +118,6 @@ public class GwfMenu implements CommandLineRunner {
                     afterResString = coreMenu.getRestValue(systemInforEntity, "售后订单");
                     tempNum++;
                 }
-
                 synchronized (systemInforEntity) {
                     if (tempNum != 5) {
                         systemInforEntity.wait();

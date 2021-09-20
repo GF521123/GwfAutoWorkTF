@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8"/>
+    <title>会员监控</title>
+    <script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-3.5.1.min.js"></script>
+</head>
+<body>
+<div style="width: 100%; text-align: center">
+
+    <h1>监控</h1>
+    <table  >
+        <tr>
+            <td>
+                检索次数：
+            </td>
+            <td >
+            </td>
+        </tr>
+        <tr>
+            <td>
+                检索结果：
+                </td>
+                <td>
+                </td>
+            </tr>
+
+    </table>
+    <script>
+        windows.onload= function(){
+            var tepnum = 0;
+
+        }
+        windows.getNum = function(tepnum){
+            $.ajax({
+                url:'CheckPendingMember',
+                type:'post',
+                dataType:'json',
+                success:function(data){
+                    alert(data)
+                    // if(data.)
+
+                },
+                error:function(){
+
+                }
+            })
+        }
+    </script>
+</div>
+</body>
+</html>

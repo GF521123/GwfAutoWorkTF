@@ -34,6 +34,7 @@ public class MemberRetrievalServiceImp implements MemberRetrievalService {
 		//请求
 		String res = httpClientUtils.HttpClient_Reptile_Default(url, params);
 		JSONObject json_Data = (JSONObject) JSONObject.parse(res);
+//		System.out.println(json_Data);
 		String status =   json_Data.getString("status");
 		if("success".equals(status)) {
 			String totalRows =   json_Data.getString("totalRows");

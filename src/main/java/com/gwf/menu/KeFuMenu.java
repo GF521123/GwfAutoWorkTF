@@ -1,8 +1,6 @@
 package com.gwf.menu;
 
 import com.gwf.entity.ToEmailEntity;
-import com.gwf.menu.son.*;
-import com.gwf.utils.EmailUtils;
 import com.gwf.utils.GwfUtils;
 import com.gwf.utils.HttpClientUtils;
 import org.slf4j.Logger;
@@ -26,21 +24,17 @@ import java.time.format.DateTimeFormatter;
  * 订单启动控制菜单
  */
 @Component
-@Order(value=8)
+@Order(value=2)
 public class KeFuMenu  implements CommandLineRunner {
 
     private static final Logger log = LoggerFactory.getLogger(CoreMenu.class);
 
-    @Autowired
-    private SystemInforMenu SystemInforMenu;
     @Autowired
     private SystemInforEntity systemInforEntity;
     @Autowired
     private GwfUtils gwfUtils;
     @Autowired
     private HttpClientUtils httpClientUtils;
-    @Autowired
-    private EmailUtils emailUtils;
 
 
     @Autowired
@@ -52,22 +46,22 @@ public class KeFuMenu  implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
-        int second = 0;
-        new Thread() {
-            public void run() {
-                synchronized (systemInforEntity) {
-                    if (null == systemInforEntity.getGwfTime()||null == systemInforEntity.getKefuTime()) {
-                        try {
-                            systemInforEntity.wait();
-                        } catch (InterruptedException e) {
-                            e.printStackTrace();
-                        }
-                    }
-                }
-                customerService(second);
-
-            }
-        }.start();
+//        int second = 0;
+//        new Thread() {
+//            public void run() {
+//                synchronized (systemInforEntity) {
+//                    if (null == systemInforEntity.getGwfTime()||null == systemInforEntity.getKefuTime()) {
+//                        try {
+//                            systemInforEntity.wait();
+//                        } catch (InterruptedException e) {
+//                            e.printStackTrace();
+//                        }
+//                    }
+//                }
+//                customerService(second);
+//
+//            }
+//        }.start();
     }
 
     /**
@@ -81,7 +75,18 @@ public class KeFuMenu  implements CommandLineRunner {
 
         String emailSubject="";
         String memberResString="";
-        if (gwfUtils.isRunTime()) {
+        if (gwfUtils.isRunTime(1)) {
+//            if(!gwfUtils.isPing()){
+//                log.info("网络链接异常3分分钟后重试");
+//                try {
+//                    Thread.sleep(3 * 60 * 1000);
+//                    customerService(timesCount);
+//                    return;
+//                } catch (InterruptedException e) {
+//                    e.printStackTrace();
+//                }
+//
+//            }
             systemInforEntity.setCookie(httpClientUtils.getCookies());
             String timeStr1 = LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm:ss"));
             timesCount++;
@@ -109,18 +114,19 @@ public class KeFuMenu  implements CommandLineRunner {
                         coreMenu.SendEmail(emailSubject,resValue,topKeFu,"KeFu");
                     }
                 }
-
                 Thread.sleep(Integer.parseInt(systemInforEntity.getKefuTime()) * 60 * 1000);
                 customerService(timesCount);
             }catch (InterruptedException e) {
-                try {
-                    Thread.sleep(Integer.parseInt(systemInforEntity.getKefuTime()) * 60 * 1000);
-                } catch (InterruptedException e1) {
-                    e1.printStackTrace();
-                }
-                customerService(timesCount);
+
             }
 
+        }else{
+            try {
+                Thread.sleep(Integer.parseInt(systemInforEntity.getKefuTime()) * 60 * 1000);
+            } catch (InterruptedException e1) {
+                e1.printStackTrace();
+            }
+            customerService(timesCount);
         }
 
     }

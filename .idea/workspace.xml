@@ -2,37 +2,82 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb4201b5-ac98-45f9-a5d4-2d6b910dd5cb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/target/GwfAutoWorkTF-1.0.0-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/GwfAutoWorkTF-1.0.0-SNAPSHOT.jar.original" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/GwfAutoWorkTF.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_16_18.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gwf/controller/Imp/PageControllerImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gwf/controller/PageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gwf/utils/Imp/SortByLengthComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/page/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/page/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/page/jquery-3.6.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/page/requestSystem.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GwfAutoWorkTF.iml" beforeDir="false" afterPath="$PROJECT_DIR$/GwfAutoWorkTF.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gwf/menu/GwfMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gwf/menu/GwfMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gwf/menu/KeFuMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gwf/menu/KeFuMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gwf/service/Imp/MemberRetrievalServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gwf/service/Imp/MemberRetrievalServiceImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gwf/utils/GwfUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gwf/utils/GwfUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/gwf/utils/Imp/GwfUtilsImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gwf/utils/Imp/GwfUtilsImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gwf/utils/Imp/HttpClientUtilsImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gwf/utils/Imp/HttpClientUtilsImp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/config/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gwf/GwfAutoWorkTFApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gwf/controller/Imp/MemberRetrievalControllerImp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gwf/controller/MemberRetrievalController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gwf/controller/OrderInforController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gwf/entity/SystemInforEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gwf/entity/ToEmailEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gwf/menu/CoreMenu$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gwf/menu/CoreMenu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gwf/menu/son/MemberRetrievalMenu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gwf/menu/son/OrderInforMenu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gwf/menu/son/SystemInforMenu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gwf/service/Imp/MemberRetrievalServiceImp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gwf/service/MemberRetrievalService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gwf/service/OrderInforService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gwf/utils/EmailUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gwf/utils/GwfUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gwf/utils/HttpClientUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gwf/utils/Imp/EmailUtilsImp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gwf/utils/Imp/GwfUtilsImp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gwf/utils/Imp/HttpClientUtilsImp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gwf/utils/Imp/OrderUtilsImp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gwf/utils/OrderUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/GwfAutoCS-1.0.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/GwfAutoCS-1.0.0-SNAPSHOT.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/GwfAutoWorkTF-1.0.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/GwfAutoWorkTF-1.0.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/GwfAutoWorkTF-1.0.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/GwfAutoWorkTF-1.0.0-SNAPSHOT.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/GwfAutoWorkTF.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gwf/GwfAutoWorkTFApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gwf/GwfAutoWorkTFApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gwf/controller/AfterSalesController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gwf/controller/AfterSalesController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gwf/controller/Imp/AfterSalesControllerImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gwf/controller/Imp/AfterSalesControllerImp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gwf/controller/Imp/MemberRetrievalControllerImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gwf/controller/Imp/MemberRetrievalControllerImp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gwf/controller/Imp/NeedPendingControllerImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gwf/controller/Imp/NeedPendingControllerImp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gwf/controller/Imp/OrderInforControllerImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gwf/controller/Imp/OrderInforControllerImp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gwf/controller/Imp/ShopPendingControllerImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gwf/controller/Imp/ShopPendingControllerImp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gwf/controller/Imp/UpdateShopNameControllerImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gwf/controller/Imp/UpdateShopNameControllerImp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gwf/controller/MemberRetrievalController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gwf/controller/MemberRetrievalController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gwf/controller/NeedPendingController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gwf/controller/NeedPendingController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gwf/controller/OrderInforController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gwf/controller/OrderInforController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gwf/controller/ShopPendingController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gwf/controller/ShopPendingController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gwf/controller/UpdateShopNameController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gwf/controller/UpdateShopNameController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gwf/entity/SystemInforEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gwf/entity/SystemInforEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gwf/entity/ToEmailEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gwf/entity/ToEmailEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gwf/menu/CoreMenu$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gwf/menu/CoreMenu$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gwf/menu/CoreMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gwf/menu/CoreMenu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gwf/menu/GwfMenu$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gwf/menu/GwfMenu$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gwf/menu/GwfMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gwf/menu/GwfMenu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gwf/menu/KeFuMenu$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gwf/menu/KeFuMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gwf/menu/KeFuMenu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gwf/menu/son/AfterSalesMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gwf/menu/son/AfterSalesMenu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gwf/menu/son/MemberRetrievalMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gwf/menu/son/MemberRetrievalMenu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gwf/menu/son/NeedPendingMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gwf/menu/son/NeedPendingMenu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gwf/menu/son/OrderInforMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gwf/menu/son/OrderInforMenu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gwf/menu/son/ShopPendingMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gwf/menu/son/ShopPendingMenu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gwf/menu/son/SystemInforMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gwf/menu/son/SystemInforMenu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gwf/menu/son/UpdateShopNameMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gwf/menu/son/UpdateShopNameMenu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gwf/service/AfterSalesService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gwf/service/AfterSalesService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gwf/service/Imp/AfterSalesServiceImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gwf/service/Imp/AfterSalesServiceImp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gwf/service/Imp/MemberRetrievalServiceImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gwf/service/Imp/MemberRetrievalServiceImp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gwf/service/Imp/NeedPendingServiceImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gwf/service/Imp/NeedPendingServiceImp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gwf/service/Imp/OrderInforServiceImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gwf/service/Imp/OrderInforServiceImp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gwf/service/Imp/ShopPendingServiceImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gwf/service/Imp/ShopPendingServiceImp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gwf/service/Imp/UpdateShopNameServiceImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gwf/service/Imp/UpdateShopNameServiceImp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gwf/service/MemberRetrievalService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gwf/service/MemberRetrievalService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gwf/service/NeedPendingService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gwf/service/NeedPendingService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gwf/service/OrderInforService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gwf/service/OrderInforService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gwf/service/ShopPendingService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gwf/service/ShopPendingService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gwf/service/UpdateShopNameService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gwf/service/UpdateShopNameService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gwf/utils/EmailUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gwf/utils/EmailUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gwf/utils/GwfUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gwf/utils/GwfUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gwf/utils/HttpClientUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gwf/utils/HttpClientUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gwf/utils/Imp/EmailUtilsImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gwf/utils/Imp/EmailUtilsImp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gwf/utils/Imp/GwfUtilsImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gwf/utils/Imp/GwfUtilsImp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gwf/utils/Imp/HttpClientUtilsImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gwf/utils/Imp/HttpClientUtilsImp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gwf/utils/Imp/OrderUtilsImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gwf/utils/Imp/OrderUtilsImp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/gwf/utils/OrderUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/gwf/utils/OrderUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/config/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/config/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -48,28 +93,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/gwf/utils/GwfUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="13" column="22" lean-forward="true" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/gwf/utils/Imp/GwfUtilsImp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="376">
-              <caret line="100" column="21" lean-forward="true" selection-start-line="100" selection-start-column="21" selection-end-line="100" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/config/application.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+            <state relative-caret-position="144">
+              <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -77,38 +104,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="48" column="28" selection-start-line="48" selection-start-column="28" selection-end-line="48" selection-end-column="28" />
+            <state relative-caret-position="270">
+              <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/gwf/menu/son/AfterSalesMenu.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/gwf/menu/KeFuMenu.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/gwf/entity/SystemInforEntity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/gwf/menu/son/SystemInforMenu.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="28" column="16" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
+            <state relative-caret-position="353">
+              <caret line="80" column="23" lean-forward="true" selection-start-line="80" selection-start-column="23" selection-end-line="80" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -119,29 +125,62 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/gwf/menu/GwfMenu.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2034">
-              <caret line="128" column="79" selection-start-line="128" selection-start-column="79" selection-end-line="128" selection-end-column="79" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/gwf/menu/KeFuMenu.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1998">
-              <caret line="127" selection-start-line="127" selection-end-line="127" />
+            <state relative-caret-position="430">
+              <caret line="90" column="21" lean-forward="true" selection-start-line="90" selection-start-column="21" selection-end-line="90" selection-end-column="21" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#1389#1918#0" expanded="true" />
+                <element signature="e#1917#1918#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/Program Files/Java/jdk-15.0.1/lib/src.zip!/java.base/java/lang/Integer.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/gwf/utils/HttpClientUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="10224">
-              <caret line="613" column="18" selection-start-line="613" selection-start-column="18" selection-end-line="613" selection-end-column="18" />
+            <state relative-caret-position="259">
+              <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/gwf/utils/Imp/SortByLengthComparator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/gwf/utils/GwfUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="389">
+              <caret line="62" column="20" selection-start-line="62" selection-start-column="20" selection-end-line="62" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#998#999#0" expanded="true" />
+                <element signature="e#1051#1052#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/gwf/utils/Imp/GwfUtilsImp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="173">
+              <caret line="117" selection-start-line="117" selection-end-line="117" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/gwf/menu/son/MemberRetrievalMenu.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="208">
+              <caret line="25" column="76" selection-start-line="25" selection-start-column="76" selection-end-line="25" selection-end-column="76" />
             </state>
           </provider>
         </entry>
@@ -152,6 +191,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="HTML File" />
         <option value="Class" />
       </list>
     </option>
@@ -160,6 +200,9 @@
     <findStrings>
       <find>MemberRetrievalMenu</find>
       <find>getRestValue</find>
+      <find>thymeleaf</find>
+      <find>web</find>
+      <find>notifyMe</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -171,20 +214,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/gwf/menu/son/SystemInforMenuStart.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gwf/controller/Imp/MemberRetrievalControllerImp.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gwf/controller/MemberRetrievalController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gwf/entity/ToEmail.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gwf/service/MemberRetrievalService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gwf/GwfAutoWorkTFApplication.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gwf/utils/HttpClientUtils.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gwf/entity/SystemInfor.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gwf/menu/son/SystemInforMenu.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gwf/utils/GwfUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gwf/utils/EmailUtils.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gwf/utils/Imp/HttpClientUtilsImp.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gwf/utils/Imp/EmailUtilsImp.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gwf/service/Imp/MemberRetrievalServiceImp.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gwf/service/OrderInforService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gwf/controller/OrderInforController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gwf/controller/Imp/OrderInforControllerImp.java" />
@@ -213,13 +245,24 @@
         <option value="$PROJECT_DIR$/src/main/java/com/gwf/menu/son/UpdateShopNameMenu.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gwf/menu/son/OrderInforMenu.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gwf/menu/son/NeedPendingMenu.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gwf/menu/son/MemberRetrievalMenu.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gwf/menu/son/AfterSalesMenu.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gwf/entity/SystemInforEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/index.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/index.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gwf/controller/Imp/PageControllerImp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gwf/controller/PageController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/page/index.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/page/requestSystem.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/page/index.js" />
         <option value="$PROJECT_DIR$/src/main/java/com/gwf/menu/CoreMenu.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gwf/menu/son/MemberRetrievalMenu.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gwf/service/Imp/MemberRetrievalServiceImp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gwf/utils/Imp/SortByLengthComparator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gwf/utils/Imp/HttpClientUtilsImp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gwf/utils/GwfUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gwf/utils/Imp/GwfUtilsImp.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gwf/menu/GwfMenu.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/gwf/menu/KeFuMenu.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/gwf/utils/Imp/GwfUtilsImp.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/config/application.yaml" />
       </list>
@@ -248,18 +291,21 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="147" />
-    <option name="y" value="436" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1" />
+    <option name="y" value="4" />
     <option name="width" value="1936" />
-    <option name="height" value="1066" />
+    <option name="height" value="1100" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -293,6 +339,53 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="gwf" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GwfAutoWorkTF" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GwfAutoWorkTF" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="gwf" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GwfAutoWorkTF" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GwfAutoWorkTF" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="gwf" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="Imp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GwfAutoWorkTF" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GwfAutoWorkTF" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="gwf" type="462c0819:PsiDirectoryNode" />
+              <item name="menu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GwfAutoWorkTF" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GwfAutoWorkTF" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="gwf" type="462c0819:PsiDirectoryNode" />
+              <item name="menu" type="462c0819:PsiDirectoryNode" />
+              <item name="son" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GwfAutoWorkTF" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GwfAutoWorkTF" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="gwf" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="GwfAutoWorkTF" type="b2602c69:ProjectViewProjectNode" />
@@ -336,14 +429,23 @@
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="GwfAutoWorkTF" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GwfAutoWorkTF" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="page" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelOrder2" value="2" />
@@ -359,11 +461,21 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\study\idea\sourceFile\GwfAutoWorkTF\src\main\resources\static\page" />
+      <recent name="F:\study\idea\sourceFile\GwfAutoWorkTF\src\main\resources\templates" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.gwf.menu" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\study\idea\sourceFile\GwfAutoWorkTF\src\main\resources\static\page" />
+      <recent name="F:\study\idea\sourceFile\GwfAutoWorkTF\src\main\resources\static" />
+      <recent name="F:\study\idea\sourceFile\GwfAutoWorkTF\src\main\resources\templates" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -379,6 +491,44 @@
     </option>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings">
+          <MavenRunnerSettings>
+            <option name="delegateBuildToMaven" value="false" />
+            <option name="environmentProperties">
+              <map />
+            </option>
+            <option name="jreName" value="#JAVA_HOME" />
+            <option name="mavenProperties">
+              <map />
+            </option>
+            <option name="passParentEnv" value="true" />
+            <option name="runMavenInBackground" value="true" />
+            <option name="skipTests" value="false" />
+            <option name="vmOptions" value="" />
+          </MavenRunnerSettings>
+        </option>
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
     <configuration name="GwfAutoWorkTFApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="GwfAutoWorkTF" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.gwf.GwfAutoWorkTFApplication" />
@@ -401,6 +551,18 @@
       <workItem from="1623640523524" duration="1415000" />
       <workItem from="1623641976543" duration="397000" />
       <workItem from="1623718774298" duration="53000" />
+      <workItem from="1623719724203" duration="138000" />
+      <workItem from="1623727469200" duration="9867000" />
+      <workItem from="1623742181633" duration="1662000" />
+      <workItem from="1623743955772" duration="1159000" />
+      <workItem from="1623745153261" duration="474000" />
+      <workItem from="1623746131265" duration="1211000" />
+      <workItem from="1623995757911" duration="1489000" />
+      <workItem from="1624009179717" duration="317000" />
+      <workItem from="1624083501233" duration="2290000" />
+      <workItem from="1624261362215" duration="2204000" />
+      <workItem from="1631067783888" duration="846000" />
+      <workItem from="1631581806471" duration="9692000" />
     </task>
     <task id="LOCAL-00001" summary="4.0">
       <created>1623576000983</created>
@@ -416,16 +578,24 @@
       <option name="project" value="LOCAL" />
       <updated>1623641772221</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="4.0 over">
+      <created>1623719800421</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1623719800421</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16005000" />
+    <option name="totallyTimeSpent" value="47354000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <frame x="-109" y="42" width="1936" height="1100" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -435,16 +605,16 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7630208" weight="0.52473116" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.753125" weight="0.34543568" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.56822914" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.23697917" side_tool="true" visible="true" weight="0.5236559" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.33010754" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.246875" side_tool="true" visible="true" weight="0.34543568" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49583334" weight="0.33010754" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="bottom" id="Version Control" order="14" />
@@ -470,130 +640,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="4.0 over" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gwf/GwfAutoWorkTFApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gwf/utils/EmailUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gwf/service/OrderInforService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="54" selection-start-line="10" selection-start-column="54" selection-end-line="10" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gwf/utils/OrderUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="38" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/about.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gwf/utils/Imp/HttpClientUtilsImp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gwf/service/Imp/OrderInforServiceImp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="71" column="46" selection-start-line="71" selection-start-column="46" selection-end-line="71" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#634#650#0" expanded="true" />
-            <element signature="e#1443#1459#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gwf/utils/Imp/OrderUtilsImp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-43">
-          <caret line="101" column="53" selection-start-line="101" selection-start-column="53" selection-end-line="101" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gwf/service/ShopPendingService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gwf/controller/ShopPendingController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="45" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gwf/controller/Imp/ShopPendingControllerImp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="27" column="58" selection-start-line="27" selection-start-column="58" selection-end-line="27" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#702#703#0" expanded="true" />
-            <element signature="e#742#743#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gwf/service/Imp/ShopPendingServiceImp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gwf/controller/UpdateShopNameController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gwf/service/UpdateShopNameService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="52" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gwf/service/AfterSalesService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="54" lean-forward="true" selection-start-line="10" selection-start-column="54" selection-end-line="10" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/gwf/service/Imp/UpdateShopNameServiceImp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="214">
@@ -604,27 +650,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gwf/service/MemberRetrievalService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/gwf/service/NeedPendingService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gwf/service/Imp/MemberRetrievalServiceImp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="738">
-          <caret line="41" column="54" selection-start-line="41" selection-start-column="51" selection-end-line="41" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -662,13 +691,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gwf/controller/Imp/MemberRetrievalControllerImp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/gwf/controller/Imp/AfterSalesControllerImp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -678,13 +700,6 @@
             <element signature="e#328#329#0" expanded="true" />
             <element signature="e#355#356#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gwf/controller/MemberRetrievalController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -760,47 +775,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gwf/menu/son/MemberRetrievalMenu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gwf/utils/Imp/EmailUtilsImp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="141" selection-start-line="141" selection-end-line="141" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gwf/entity/ToEmailEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="23" column="52" selection-start-line="23" selection-start-column="52" selection-end-line="23" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gwf/menu/CoreMenu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1512">
-          <caret line="98" column="21" selection-start-line="98" selection-start-column="17" selection-end-line="98" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gwf/utils/HttpClientUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/gwf/menu/son/NeedPendingMenu.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -838,61 +812,277 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gwf/menu/GwfMenu.java">
+    <entry file="jar://D:/Program Files/Java/jdk-15.0.1/lib/src.zip!/java.base/java/lang/Integer.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-devtools/1.5.9.RELEASE/spring-boot-devtools-1.5.9.RELEASE.jar!/org/springframework/boot/devtools/restart/RestartApplicationListener.class" />
+    <entry file="file://$PROJECT_DIR$/GwfAutoWorkTF.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2034">
-          <caret line="128" column="79" selection-start-line="128" selection-start-column="79" selection-end-line="128" selection-end-column="79" />
+        <state relative-caret-position="756">
+          <caret line="42" column="18" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/gwf/menu/KeFuMenu.java">
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1998">
-          <caret line="127" selection-start-line="127" selection-end-line="127" />
+        <state relative-caret-position="195498">
+          <caret line="10874" column="68" selection-start-line="10874" selection-start-column="68" selection-end-line="10874" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/page/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#div#0;n#body#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk-15.0.1/lib/src.zip!/java.base/java/lang/Thread.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/page/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2232">
+          <caret line="124" column="23" selection-start-line="124" selection-start-column="23" selection-end-line="124" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/page/requestSystem.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="666">
+          <caret line="37" column="2" selection-end-line="37" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/page/jquery-3.6.0.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gwf/controller/PageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Program Files/Java/jdk-15.0.1/lib/src.zip!/java.base/java/lang/Integer.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gwf/controller/Imp/PageControllerImp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10224">
-          <caret line="613" column="18" selection-start-line="613" selection-start-column="18" selection-end-line="613" selection-end-column="18" />
+        <state relative-caret-position="216">
+          <caret line="23" column="14" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gwf/entity/ToEmailEntity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="48" column="28" selection-start-line="48" selection-start-column="28" selection-end-line="48" selection-end-column="28" />
+        <state relative-caret-position="252">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gwf/utils/EmailUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gwf/utils/Imp/EmailUtilsImp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_291/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="147" column="19" selection-start-line="147" selection-start-column="19" selection-end-line="147" selection-end-column="19" />
+          <folding>
+            <element signature="e#5748#5749#0" expanded="true" />
+            <element signature="e#5784#5785#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_291/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="975" column="19" selection-start-line="975" selection-start-column="19" selection-end-line="975" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gwf/menu/CoreMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="77" column="52" selection-start-line="77" selection-start-column="52" selection-end-line="77" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gwf/controller/MemberRetrievalController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gwf/service/MemberRetrievalService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gwf/service/Imp/MemberRetrievalServiceImp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gwf/controller/Imp/MemberRetrievalControllerImp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="21" column="55" selection-start-line="21" selection-start-column="55" selection-end-line="21" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gwf/menu/son/MemberRetrievalMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="25" column="76" selection-start-line="25" selection-start-column="76" selection-end-line="25" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gwf/utils/Imp/SortByLengthComparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gwf/utils/Imp/HttpClientUtilsImp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-511">
+          <caret line="143" column="24" lean-forward="true" selection-start-line="143" selection-start-column="24" selection-end-line="143" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2578#2586#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gwf/utils/HttpClientUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/gwf/utils/GwfUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="13" column="22" lean-forward="true" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+        <state relative-caret-position="389">
+          <caret line="62" column="20" selection-start-line="62" selection-start-column="20" selection-end-line="62" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#998#999#0" expanded="true" />
+            <element signature="e#1051#1052#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/gwf/utils/Imp/GwfUtilsImp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="100" column="21" lean-forward="true" selection-start-line="100" selection-start-column="21" selection-end-line="100" selection-end-column="21" />
+        <state relative-caret-position="173">
+          <caret line="117" selection-start-line="117" selection-end-line="117" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/1.5.9.RELEASE/spring-boot-autoconfigure-1.5.9.RELEASE.jar!/org/springframework/boot/autoconfigure/mail/MailSenderValidatorAutoConfiguration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/config/application.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+        <state relative-caret-position="144">
+          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gwf/menu/GwfMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="90" column="21" lean-forward="true" selection-start-line="90" selection-start-column="21" selection-end-line="90" selection-end-column="21" />
+          <folding>
+            <element signature="e#1389#1918#0" expanded="true" />
+            <element signature="e#1917#1918#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gwf/menu/KeFuMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="80" column="23" lean-forward="true" selection-start-line="80" selection-start-column="23" selection-end-line="80" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
           <splitter-proportions>
@@ -905,6 +1095,17 @@
         </settings>
       </state>
       <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
         <settings>
           <splitter-proportions>
             <option name="proportions">

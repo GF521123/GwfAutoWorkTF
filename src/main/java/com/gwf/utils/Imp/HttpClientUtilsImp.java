@@ -8,10 +8,12 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 import java.net.URLEncoder;
 import java.nio.charset.Charset;
-import java.util.List;
+import java.util.*;
 
 import com.gwf.entity.SystemInforEntity;
+import com.gwf.utils.GwfUtils;
 import org.apache.http.HttpEntity;
+import org.apache.http.client.CookieStore;
 import org.apache.http.client.methods.CloseableHttpResponse;
 import org.apache.http.client.methods.HttpPost;
 import org.apache.http.cookie.Cookie;
@@ -21,10 +23,8 @@ import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClients;
 import org.apache.http.util.EntityUtils;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
 
 import com.alibaba.fastjson.JSONObject;
-import com.gwf.entity.SystemInforEntity;
 import com.gwf.utils.HttpClientUtils;
 import org.springframework.stereotype.Repository;
 
@@ -47,10 +47,13 @@ public class HttpClientUtilsImp implements HttpClientUtils {
         String param = "{\"code\":\"18238621523\",\"password\":\"gwf18238621523.\",\"accountname\":\"\"}";
 
         // 获取cookies信息
-        BasicCookieStore store= new BasicCookieStore();
+//        CookieStore BasicCookieStore
+        CookieStore store= new BasicCookieStore();
         CloseableHttpClient httpclient = HttpClients.custom().setDefaultCookieStore(store).build();
-        
-		// 建立一个NameValuePair数组，用于存储欲传送的参数
+
+
+
+        // 建立一个NameValuePair数组，用于存储欲传送的参数
 		httpPost.addHeader("Content-type","application/json; charset=utf-8");
 		httpPost.setHeader("Accept", "application/json");
 		httpPost.setEntity(new StringEntity(param, Charset.forName("UTF-8")));
@@ -62,14 +65,35 @@ public class HttpClientUtilsImp implements HttpClientUtils {
 	        HttpEntity httpEntity = response.getEntity();	
 	        String loginResult = EntityUtils.toString(httpEntity, "utf8");
 			JSONObject JsonRest = (JSONObject) JSONObject.parse(loginResult);
+
 			String cookieUser =   JsonRest.getString("data");
+//            System.out.println(cookieUser);
 			cookieUser = URLEncoder.encode(cookieUser, "utf-8");
 	      //登录cookie信息
 	        List<Cookie> cookielist = store.getCookies();
-	        String JESSIONID = "";
-	        for(Cookie c: cookielist){
-	            JESSIONID=c.getValue();
-	        }
+	        String JSESSIONID = "";
+	        String str1="",str2="",str3="";
+	        List<String> strList = new ArrayList<String>();
+	        if(cookielist.size()<2){
+
+            }else{
+                str1=""+cookielist.get(0);
+                str2=""+cookielist.get(1);
+                str3=""+cookielist.get(2);
+
+                for(Cookie c: cookielist){
+//                    System.out.println(cookielist.size()+" "+c.getValue());
+//                    JESSIONID=c.getValue();
+                    strList.add(c.getValue());
+                }
+            }
+            Collections.sort(strList, new SortByLengthComparator());
+            JSESSIONID = strList.get(0);
+
+//	        for(Cookie c: cookielist){
+//                System.out.println(cookielist.size()+" "+c.getValue());
+//	            JSESSIONID=c.getValue();
+//	        }
 	       
 	        cookieUser = cookieUser.replaceAll("%7B", "{");
 	        cookieUser = cookieUser.replaceAll("%7D", "}");
@@ -77,8 +101,13 @@ public class HttpClientUtilsImp implements HttpClientUtils {
 	        cookieUser = cookieUser.replaceAll("%5B", "[");
 	        cookieUser = cookieUser.replaceAll("%3A", ":");
 	        
-	        String resCookie = "JSESSIONID=" + JESSIONID + "; sessionUser=" + cookieUser + "";
-	        return resCookie;
+	        String resCookie = "positionUser=%22%u5E7F%u4E1C%22; "+
+                    "SESSION="+ strList.get(2)+
+                    "; JSESSIONID=" + JSESSIONID + "; sessionUser=" + cookieUser + "";
+//            System.out.println(resCookie);
+//            System.out.println(JESSIONID+" = "+GwfUtils.decryptBASE64(JESSIONID));
+
+            return resCookie;
 		} catch (IOException e) {
 			e.printStackTrace();
 			return "";
